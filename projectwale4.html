@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Pathology Classification System</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+
+        .header {
+            background-color: #fff;
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .header img {
+            max-width: 150px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+
+        .left-content {
+            width: 65%;
+        }
+
+        .right-content {
+            width: 30%;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .get-paper-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .video-section {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .video-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+
+        .video-item img {
+            width: 100%;
+            display: block;
+        }
+
+        .video-item .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px 15px;
+            border-radius: 50%;
+            cursor: pointer;
+            opacity: 0.8;
+            font-size: 20px;
+        }
+
+        .video-item:hover .play-button {
+            opacity: 1;
+        }
+
+        .abstract-section,
+        .modules-section,
+        .algorithms-section,
+        .software-hardware-section {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .abstract-section h2,
+        .modules-section h2,
+        .algorithms-section h2,
+        .software-hardware-section h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .price-section {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .price-section h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .call-button {
+            background-color: #008CBA;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .synopsis-link {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://projectwale.com/lite/images/logo.png" alt="Projectwale Logo"> 
+    </div>
+
+    <div class="container">
+        <div class="left-content">
+            <h1 class="project-title">An Improved System for Brain Pathology Classification using Hybrid Deep Learning Algorithm</h1>
+            <button class="get-paper-button" onclick="window.location.href='#'">Get this paper</button>
+
+            <div class="video-section">
+                <div class="video-item" onclick="alert('Play video 1')">
+                    <img src="./images/brain1.png" alt="Video Thumbnail 1">
+                    <div class="play-button">▶</div>
+                </div>
+                <div class="video-item" onclick="alert('Play video 2')">
+                    <img src="./images/brain2.png" alt="Video Thumbnail 2">
+                    <div class="play-button">▶</div>
+                </div>
+            </div>
+
+            <div class="abstract-section">
+                <h2>Abstract</h2>
+                <p>This study aims to improve brain pathology classification using deep learning models...</p>
+            </div>
+
+            <div class="modules-section">
+                <h2>Modules</h2>
+                <ul>
+                    <li>Data Preprocessing</li>
+                    <li>Feature Extraction</li>
+                    <li>Model Training</li>
+                    <li>Classification & Evaluation</li>
+                </ul>
+            </div>
+
+            <div class="algorithms-section">
+                <h2>Algorithms Used</h2>
+                <ul>
+                    <li>Convolutional Neural Networks (CNN)</li>
+                    <li>Transfer Learning with ResNet</li>
+                    <li>Gradient Descent Optimization</li>
+                </ul>
+            </div>
+
+            <div class="software-hardware-section">
+                <h2>Software & Hardware Requirements</h2>
+                <ul>
+                    <li>Python, TensorFlow, OpenCV</li>
+                    <li>Minimum 8GB RAM, GPU Acceleration</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right-content">
+            <div class="price-section">
+                <h2>Price</h2>
+                <p>₹ 3,500 INR</p>
+                <p>Year: 2022</p>
+            </div>
+
+            <a href="tel:+919009933180" class="call-button">Click here to Call us on +91 9009933180</a>
+            
+            <div class="contact-section">
+                <h2>Contact Us</h2>
+                <a href="mailto:devlopyee@gmail.com" class="call-button" style="background-color: #FF5722;">Email: devlopyee@gmail.com</a>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="synopsis-link">For synopsis of more than 400 topics click here</a>
+</body>
+</html>

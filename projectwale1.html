@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accident Detection Messaging: IoT Project with Arduino</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+
+        .header {
+            background-color: #fff;
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .header img {
+            max-width: 150px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+
+        .left-content {
+            width: 65%;
+        }
+
+        .right-content {
+            width: 30%;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .get-paper-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .video-section {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .video-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-item img {
+            width: 100%;
+            display: block;
+        }
+
+        .video-item .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px 15px;
+            border-radius: 50%;
+            cursor: pointer;
+            opacity: 0.8;
+        }
+
+        .video-item:hover .play-button {
+            opacity: 1;
+        }
+
+        .abstract-section,
+        .modules-section,
+        .components-section,
+        .software-hardware-section {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .abstract-section h2,
+        .modules-section h2,
+        .components-section h2,
+        .software-hardware-section h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .abstract-section p {
+            line-height: 1.6;
+        }
+
+        .price-section {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .price-section h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .call-button {
+            background-color: #008CBA;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .synopsis-link {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://projectwale.com/lite/images/logo.png" alt="Projectwale Logo"> 
+    </div>
+
+    <div class="container">
+        <div class="left-content">
+            <h1 class="project-title">Accident Detection Messaging: IoT Project with Arduino</h1>
+            <button class="get-paper-button">Get this paper</button>
+
+            <div class="video-section">
+                <div class="video-item">
+                    <img src="./images/3project.jpg" alt="Video Thumbnail 1">
+                    <div class="play-button">▶</div>
+                </div>
+            </div>
+
+            <div class="abstract-section">
+                <h2>Abstract</h2>
+                <p>Road accidents are a major cause of fatalities worldwide, and immediate medical assistance can save lives. This IoT-based accident detection and messaging system uses Arduino and sensors to detect accidents and send emergency alerts via SMS. The system incorporates an accelerometer, GPS module, and GSM module to accurately determine the accident location and notify emergency contacts in real time.</p>
+            </div>
+
+            <div class="modules-section">
+                <h2>Modules</h2>
+                <p>- Sensor Data Collection & Processing  
+                   - GPS Tracking & Location Detection  
+                   - GSM-Based Emergency Messaging  
+                   - Arduino Microcontroller Integration  
+                   - Web Dashboard (Optional)  
+                </p> 
+            </div>
+
+            <div class="components-section">
+                <h2>Hardware Components Used</h2>
+                <p>- Arduino Uno  
+                   - MPU6050 Accelerometer & Gyroscope Sensor  
+                   - GPS Module (Neo-6M)  
+                   - GSM Module (SIM800L)  
+                   - Buzzer for alert system  
+                   - 9V Power Supply  
+                </p> 
+            </div>
+
+            <div class="software-hardware-section">
+                <h2>Software & Hardware Requirements</h2>
+                <p>- Arduino IDE for programming  
+                   - C/C++ for embedded programming  
+                   - GSM & GPS module libraries  
+                   - Minimum 2GB RAM system for development  
+                   - Internet connection for API integration (if needed)  
+                </p> 
+            </div>
+        </div>
+
+        <div class="right-content">
+            <div class="price-section">
+                <h2>Price</h2>
+                <p>₹ 4,800 INR</p>
+                <p>Year: 2023</p>
+            </div>
+
+            <a href="tel:+919009933180" class="call-button">Click here to Call us on +91 9009933180</a>
+            <div class="contact-section">
+                <h2>Contact Us</h2>
+                <a href="mailto:devlopyee@gmail.com" class="call-button" style="background-color: #FF5722;">Email: devlopyee@gmail.com</a>
+            </div>
+
+            <a href="#" class="synopsis-link">For synopsis of more than 400 topics, click here</a>
+        </div>
+    </div>
+</body>
+</html>
